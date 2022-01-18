@@ -8,7 +8,7 @@ function ContextHook() {
   const [username, setUsername] = useState("");
 
   return (
-    <AppContext.Provider value={{username, setUsername}}>
+    <AppContext.Provider value={{ username, setUsername }}>
       <Login /> <User />
     </AppContext.Provider>
   );
