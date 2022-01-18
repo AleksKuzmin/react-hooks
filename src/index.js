@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import StateHooks from "./components/StateHooks";
 import EffectHook from "./components/EffectHook";
+import RefHook from "./components/RefHook";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
@@ -16,6 +17,15 @@ ReactDOM.render(
     <br></br>
     <br></br>
     <EffectHook />
+
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+
+    
+    <RefHook />
   </React.StrictMode>,
   document.getElementById("root")
 );
